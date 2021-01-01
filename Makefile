@@ -8,7 +8,7 @@ BUILD_PRX=1
 PSP_FW_VERSION=303
 
 LIBS = -lSDL_mixer -lsmpeg -lSDL -lGL -lGLU -lpsprtc -lpspirkeyb -lpsppower -lpspvfpu -lmad
-LIBS += -lvorbisidec -lpspgum -lpspgu -lpsphprm -lm -lpspaudio -lstdc++ -lcrypto
+LIBS += -lvorbisidec -lmikmod -lpspgum -lpspgu -lpsphprm -lm -lpspaudio -lstdc++
 CFLAGS = -O2 -g -Wall --fast-math -fno-unit-at-a-time -fdiagnostics-show-option -fno-exceptions
 CFLAGS += -G0 -I/usr/local/pspdev/psp/include/SDL
 
